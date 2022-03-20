@@ -22,7 +22,16 @@
   },
   "browserslist": {
     "browsers": [
-      "last 2 versions"
+      "defaults",
+      "not IE 11",
+      "maintained node versions"
     ]
+  },
+  "devDependencies": {
+    "babelify": "^10.0.0",
+    "gulp-bro": "^2.0.0",
+    "gulp-image": "^6.3.1",
+    "gulp-webserver": "^0.9.1",
+    "uglifyify": "^5.0.2"
   }
 }
